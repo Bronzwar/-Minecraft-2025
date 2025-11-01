@@ -30,7 +30,7 @@ Leaf даёт прирост производительности до **+25 %**
 Temurin / Corretto / GraalVM.  
 🚫 Не используйте headless-версии.
 
-##🔹 G1GC (до 200 игроков)
+## 🔹 G1GC (до 200 игроков)
 ```bash
 java -Xms8G -Xmx8G \
 -XX:+UseG1GC \
@@ -55,7 +55,7 @@ java -Xms8G -Xmx8G \
 -Daikars.new.flags=true \
 -jar server.jar nogui
 
-##🔹 ZGC 21+ (300+ игроков):
+## 🔹 ZGC 21+ (300+ игроков):
 java -Xms16G -Xmx16G \
 -XX:+UnlockExperimentalVMOptions \
 -XX:+UseZGC -XX:+ZGenerational \
