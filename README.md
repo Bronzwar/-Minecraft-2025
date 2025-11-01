@@ -1,8 +1,8 @@
 Оптимизация Minecraft сервера 2025
 
-⚙️ Руководство по оптимизации Minecraft-серверов (2025)
-Ядра: Paper / Pufferfish / Leaf (Gale, Purpur fork)
-Подходит для серверов:
+# ⚙️ Руководство по оптимизации Minecraft-серверов (2025)
+## Ядра: Paper / Pufferfish / Leaf (Gale, Purpur fork)
+### Подходит для серверов:
 **Survival / SkyBlock / OneBlock / PvP / MiniGames / Technical / Anarchy**  
 Рассчитано на онлайн: **50 – 300+ игроков**
 
@@ -56,6 +56,7 @@ java -Xms8G -Xmx8G \
 -jar server.jar nogui
 
 ## 🔹 ZGC 21+ (300+ игроков):
+
 java -Xms16G -Xmx16G \
 -XX:+UnlockExperimentalVMOptions \
 -XX:+UseZGC -XX:+ZGenerational \
